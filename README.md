@@ -12,5 +12,5 @@ data := `[{"node_id":"1","topic_content":"main topic"},
 支持json格式和xml格式，兼容高版本的xmind，常用版本的xmind都能打开
 使用
 ```
-go install github.com/xiazemin/xmind-go
+go install github.com/lishangjin/xmind-go
 ```

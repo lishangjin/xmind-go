@@ -54,6 +54,7 @@ type Properite struct {
 	LineColor        string `json:"line-color"`
 	FoColor          string `json:"fo:color"`
 	ShapeClass       string `json:"shape-class"`
+	BorderLineColor  string `json:"order-line-color"`
 	BorderLineWidth  string `json:"border-line-width"`
 	LineClass        string `json:"line-class"`
 	LineWidth        string `json:"line-width"`

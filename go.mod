@@ -1,3 +1,3 @@
-module github.com/xiazemin/xmind-go
+module github.com/lishangjin/xmind-go
 
 go 1.17

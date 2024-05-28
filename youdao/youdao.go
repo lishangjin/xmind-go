@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xiazemin/xmind-go/xmind"
+	"github.com/lishangjin/xmind-go/xmind"
 )
 
 // go run ./youdao/youdao.go ./youdao/youdao.mindmap ./youdao/youdao.xmind

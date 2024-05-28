@@ -1,6 +1,6 @@
 package xjson
 
-import "github.com/xiazemin/xmind-go/xmind"
+import "github.com/lishangjin/xmind-go/xmind"
 
 func SaveSheets(path string, data string) error {
 	/*

@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/xiazemin/xmind-go/xmind"
+	"github.com/lishangjin/xmind-go/xmind"
 )
 
 type XmindNode struct {
@@ -22,6 +22,7 @@ type Properite struct {
 	LineColor        string `json:"line-color"`
 	FoColor          string `json:"fo:color"`
 	ShapeClass       string `json:"shape-class"`
+	BorderLineColor  string `json:"order-line-color"`
 	BorderLineWidth  string `json:"border-line-width"`
 	LineClass        string `json:"line-class"`
 	LineWidth        string `json:"line-width"`
@@ -154,9 +155,10 @@ func AddProperty(topic *xmind.Topic) {
 		Id: topic.ID,
 		Properties: xmind.Properite{
 			LineColor:        "#15831CFF",
-			FoColor:          "#15831CFF",
+			FoColor:          "#000000FF",
 			ShapeClass:       "org.xmind.topicShape.roundedRect",
-			BorderLineWidth:  "2pt",
+			BorderLineWidth:  "1pt",
+			BorderLineColor:  "#50C3F7FF",
 			LineClass:        "org.xmind.branchConnection.roundedfold",
 			LineWidth:        "1pt",
 			FoFontFamily:     "Heiti SC",
